@@ -4,6 +4,5 @@ public class MySelf {
 	//Entry point for Java
 	public static void main(String[] args) {
 		System.out.println("Fatema Zohora");
-		System.out.println("There is a will there is a way");
 	}
 }

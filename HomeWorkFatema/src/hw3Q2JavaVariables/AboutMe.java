@@ -23,7 +23,7 @@ public class AboutMe {
 		System.out.println(aboutMe.myAge);
 		System.out.println(aboutMe.sex);
 		System.out.println(aboutMe.myName + aboutMe.myAge+ aboutMe.sex);
-		System.out.println("My Name: "+aboutMe.myName+" My Age: "+aboutMe.myAge);
 	}
+	
 
 }
