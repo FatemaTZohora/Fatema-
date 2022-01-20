@@ -16,10 +16,9 @@ public Student() {
         this.sex = sex;
         this.isProgrammer = isProgrammer;
         this.grade = grade;
+        
+        System.out.println("\nStudent Name : "+ stName +"\nID: "+ stID +"\nSex : "+ sex + "\nJava Progrmmer? Ans: " + isProgrammer + "\nGrade= " + grade);
 }
-	public static void main(String[] args) {
-		
-
 	}
 
-}
+
