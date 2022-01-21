@@ -6,7 +6,7 @@ public class StudentTest {
 		Student student01 = new Student();
 		System.out.println("---------------------------------------------");
 		// 4 Parameterized Constructors initialized here:
-		Student student02 = new Student("Fatema Tuj Zohora", 455, 'f', true, 3.976f);
+		Student student02 = new Student("FatemaTZohora", 455, 'f', true, 3.976f);
 		System.out.println("---------------------------------------------");
 		Student student03 = new Student("Fabiha Islam", 955, 'f', false, 2.906f);
 		System.out.println("---------------------------------------------");
