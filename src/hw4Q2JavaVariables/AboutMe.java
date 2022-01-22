@@ -18,7 +18,7 @@ public class AboutMe {
 		System.out.println("This is all about me:");
 	}
 
-// Here method is implemented.
+	// Here method is implemented.
 	public void aboutMe() {
 		System.out.println("My name: " + myName + "," + " My Age: " + myAge + "," + " My gender: " + sex + ","
 				+ " My hight: " + hight + "," + " My grade: " + myGrade + "," + " My salary: " + mySalary + ","
