@@ -1,9 +1,16 @@
 package hw1Q2JavaBasics;
-/* Naming convention of project, package and class*/
+
+/* Naming convention of project, package and class:
+ * project name starts with Upper case letter. 
+ * Package name starts with lower case letter letter and
+ * class name starts with Upper case letter.
+ * */
 public class MySelf {
-	//Entry point for Java
+	// Main method: Main method is the entry point for Java , static method.
+	// actually method name is main. represented by- public static void
+	// main(String[] args) { }
+
 	public static void main(String[] args) {
-		System.out.println("Fatema Zohora");
-		System.out.println("There is a will there is a way");
+		System.out.println("FatemaTZohora");
 	}
 }

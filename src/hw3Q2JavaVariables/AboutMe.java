@@ -16,14 +16,11 @@ public class AboutMe {
 
 	// Here myInfo variable is declared as I didn't assign any value of it. And
 	// 'myName' , 'mySalary', 'sex', 'myAge', 'usCitizen', etc. all the variables
-	// are initialized because I assign their value.
+	// are initialized because I assigned their value.
 	public static void main(String[] args) {
 		AboutMe aboutMe = new AboutMe();
-		System.out.println(aboutMe.myName);
-		System.out.println(aboutMe.myAge);
-		System.out.println(aboutMe.sex);
-		System.out.println(aboutMe.myName + aboutMe.myAge+ aboutMe.sex);
-		System.out.println("My Name: "+aboutMe.myName+" My Age: "+aboutMe.myAge);
+		System.out.println("My Name: " + aboutMe.myName + "," + " My Age: " + aboutMe.myAge + "," + " My sex is: "
+				+ aboutMe.sex + "," + " My salary is " + aboutMe.mySalary + ".");
 	}
 
 }

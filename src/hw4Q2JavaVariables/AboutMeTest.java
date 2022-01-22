@@ -3,10 +3,9 @@ package hw4Q2JavaVariables;
 public class AboutMeTest {
 
 	// AboutMe class is instantiated.
-
 	public static void main(String[] args) {
 		AboutMe me = new AboutMe(); // Here Constructor is initialized.
-		me.myName = "Fatema Zohora";
+		me.myName = "Fatema Zohora"; // Here variables are initialized.
 		me.mySalary = 1000000000;
 		me.sex = 'F';
 		me.usCitizen = true;
@@ -15,15 +14,11 @@ public class AboutMeTest {
 		me.myBankBalance = 80000000000l;
 		me.hight = 5.5f;
 		me.myGrade = 4.67879;
-		me.aboutMe();
-
-//Here method is initialized.
+		me.aboutMe(); // Here method is initialized.
 
 		System.out.println("\n********************************************\n");
 
-// Here Constructor is initialized.
-
-		AboutMe alex = new AboutMe();
+		AboutMe alex = new AboutMe(); // Here Constructor is initialized.
 		alex.myName = "Alex";
 		alex.mySalary = 2000000000;
 		alex.sex = 'M';
@@ -34,9 +29,7 @@ public class AboutMeTest {
 		alex.hight = 6.5f;
 		alex.myGrade = 3.67879;
 		alex.aboutMe();
-
 // Here method is initialized.
-
 	}
 
 }
