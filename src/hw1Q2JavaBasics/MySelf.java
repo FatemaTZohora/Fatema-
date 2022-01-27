@@ -9,7 +9,6 @@ public class MySelf {
 	// Main method: Main method is the entry point for Java , static method.
 	// actually method name is main. represented by- public static void
 	// main(String[] args) { }
-
 	public static void main(String[] args) {
 		System.out.println("FatemaTZohora");
 	}

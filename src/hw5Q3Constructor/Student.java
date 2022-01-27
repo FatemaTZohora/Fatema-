@@ -12,12 +12,15 @@ public class Student {
 	}
 
 	public Student(String stName, int stID, char sex, boolean isProgrammer, float grade) {
+		super();
 		this.stName = stName;
 		this.stID = stID;
 		this.sex = sex;
 		this.isProgrammer = isProgrammer;
 		this.grade = grade;
+
 		System.out.println("Student Name: " + stName + "," + " ID: " + stID + "," + " Sex: " + sex + ","
 				+ " Java Progrmmer? Ans: " + isProgrammer + " and Grade= " + grade + ".");
 	}
+
 }

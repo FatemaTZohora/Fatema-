@@ -3,8 +3,7 @@ package hw3Q2JavaVariables;
 public class AboutMe {
 
 	public String myInfo;
-
-	public String myName = "Fatema Zohora";
+	public String myName = "FatemaTZohora";
 	public int mySalary = 1000000000;
 	public char sex = 'F';
 	public boolean usCitizen = true;
