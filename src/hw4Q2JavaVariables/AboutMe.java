@@ -13,7 +13,7 @@ public class AboutMe {
 	public float hight;
 	public double myGrade;
 
-// Here constructor is declared.
+	// Here constructor is declared.
 	public AboutMe() {
 		System.out.println("This is all about me:");
 	}
