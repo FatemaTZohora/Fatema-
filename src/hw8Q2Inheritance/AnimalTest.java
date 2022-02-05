@@ -4,47 +4,38 @@ public class AnimalTest {
 	public static void main(String[] args) {
 		Animal animal = new Animal();
 		animal.animalInfo();
-
 		System.out.println("\n----------------------------------------------------\n");
-
 		BullDog bullDog = new BullDog();
 		bullDog.bullDogInfo();
-		bullDog.dogInfo(); // "this is multilevel inheritance.
-
+		bullDog.dogInfo();
+		// "BullDog extends Dog, Dog extends Mammal, Mammal extends Animal " They are
+		// Multi-level Inheritance
+		// "BullDog extends Dog" This is single Inheritance
+		// "Mammal extends Animal, Birds extends Animal, Reptile extends Animal they are
+		// called Hierarchical Inheritance
 		System.out.println("\n----------------------------------------------------\n");
-
 		Cobra cobra = new Cobra();
-		cobra.cobraInfo(); 
-		cobra.snakeInfo(); // Here Cobra is a Child Class and Snake is a Parent Class
-
+		cobra.cobraInfo();
+		cobra.snakeInfo();
+		// Here Cobra is a Child Class and Snake is a Parent Class
 		System.out.println("\n----------------------------------------------------\n");
-
 		Robin robin = new Robin();
 		robin.robinInfo();
-		robin.birdsInfo(); // Here Robin is a Child Class and Birds is a Parent Class
-
+		robin.birdsInfo();
+		// Here Robin is a Child Class and Birds is a Parent Class
 		System.out.println("\n----------------------------------------------------\n");
-
 		Dog dog = new Dog();
 		dog.dogInfo();
-
 		System.out.println("\n----------------------------------------------------\n");
-
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
-
 		System.out.println("\n----------------------------------------------------\n");
-
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
-
 		System.out.println("\n----------------------------------------------------\n");
-
 		Snake snake = new Snake();
 		snake.snakeInfo();
-
 		System.out.println("\n----------------------------------------------------\n");
-
 		Birds birds = new Birds();
 		birds.birdsInfo();
 	}
