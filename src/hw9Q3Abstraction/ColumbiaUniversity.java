@@ -11,11 +11,24 @@ public class ColumbiaUniversity extends MedicalSchool {
 	public ColumbiaUniversity() {
 
 	}
+
 	/*
 	 * Only One keyword "extends" is used for the inheritance in Java for Regular
 	 * Class. Yes, a Regular Class can inherit only one Abstract Class or a regular
-	 * class by extends keyword but a Regular class cannot inherit an Interface by
-	 * extends keyword. A Regular class can inherit only one abstract class or
-	 * regular class by extends keyword.
+	 * class by "extends" keyword but a Regular class cannot inherit an Interface by
+	 * "extends" keyword. A Regular class can inherit only one abstract class or
+	 * regular class by "extends" keyword.
 	 */
+	@Override
+	public void anatomyLab() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void hygiene() {
+		// TODO Auto-generated method stub
+
+	}
+
 }
