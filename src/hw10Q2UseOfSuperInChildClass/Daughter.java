@@ -1,4 +1,4 @@
-package hw10Q2UseOfSuperInChildClass;
+ package hw10Q2UseOfSuperInChildClass;
 
 public class Daughter extends Father {
 	public String birthMonth;
