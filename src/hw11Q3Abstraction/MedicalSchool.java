@@ -8,12 +8,13 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	}
 
 	public MedicalSchool() {
+		System.out.println("This is from default constructor named as MedicalSchool.");
+
 	}
 
 	public static void medicalSchoolInfo() {
 		System.out.println("This is a static method named as medicalSchoolInfo.");
 	}
-
 	/*
 	 * There are two keywords "extends" and "implements" are used for the
 	 * inheritance in Java for Abstract Class. Yes, an Abstract Class can inherit an
@@ -22,10 +23,10 @@ public abstract class MedicalSchool extends NursingSchool implements LawSchool {
 	 * abstract class cannot inherit a regular class or abstract class by implements
 	 * keyword.
 	 */
-
-	// we can't create default method in abstract class because Default methods are
-	// allowed only in interfaces.
-	// public default void medicalSchool() {
-	//
-	// }
+	/*
+	 * we can't create default method in abstract class because Default methods are
+	 * allowed only in interfaces. public default void medicalSchool() {
+	 * 
+	 * }
+	 */
 }

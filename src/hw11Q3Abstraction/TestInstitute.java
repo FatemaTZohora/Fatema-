@@ -36,9 +36,11 @@ public class TestInstitute {
 		// in regular class.
 
 		System.out.println("\n--------------------- Interface University ------------------------\n");
-		// Cannot instantiate the type University
-		// an Interface can't be instantiated, it needs the help of a concrete class,
-		// here ColumbiaUniversity is the concrete class
+		/*
+		 * Cannot instantiate the type University an Interface can't be instantiated, it
+		 * needs the help of a concrete class, here ColumbiaUniversity is the concrete
+		 * class
+		 */
 		University university = new ColumbiaUniversity();
 		university.cafeteria();
 		university.classSize();
@@ -56,9 +58,12 @@ public class TestInstitute {
 		University.library(); // static method from Interface University
 
 		System.out.println("\n--------------------- Abstract class MedicalSchool ------------------------\n");
-		// Cannot instantiate the type MedicalSchool
-		// an Interface can't be instantiated, it needs the help of a concrete class,
-		// here ColumbiaUniversity is the concrete class
+		/*
+		 * Cannot instantiate the type MedicalSchool an Interface can't be instantiated,
+		 * it needs the help of a concrete class, here ColumbiaUniversity is the
+		 * concrete class.
+		 */
+
 		MedicalSchool medicalSchool = new ColumbiaUniversity();
 		medicalSchool.aeronauticalInfo();
 		medicalSchool.anatomyLab();
@@ -72,6 +77,7 @@ public class TestInstitute {
 		MedicalSchool.medicalSchoolInfo(); // static method from Abstract class MedicalSchool.
 		// medicalSchool.columbiaUniversity(); //default method can't be executed in
 		// abstract class.
+
 	}
 
 }

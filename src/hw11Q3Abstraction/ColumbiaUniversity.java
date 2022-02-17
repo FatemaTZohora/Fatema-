@@ -10,6 +10,7 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 
 	// This is a default Constructor
 	public ColumbiaUniversity() {
+		System.out.println("This is from default constructor named as columbiaUniversity.");
 
 	}
 
@@ -31,79 +32,78 @@ public class ColumbiaUniversity extends MedicalSchool implements University, Voc
 
 	@Override
 	public void commonRoom() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as commonRoom.");
 
 	}
 
 	@Override
 	public void laboratory() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as laboratory.");
 
 	}
 
 	@Override
 	public void languageClub() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as languageClub.");
 
 	}
 
 	@Override
 	public void emergencyRoom() {
-		// TODO Auto-generated method stub
-
+		System.out.println("This is from void type method named as emargencyRoom.");
 	}
 
 	@Override
 	public void surgeryRoom() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as surgeryRoom.");
 
 	}
 
 	@Override
 	public void cafeteria() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as cafeteria.");
 
 	}
 
 	@Override
 	public void lawInfo() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as lawInfo.");
 
 	}
 
 	@Override
 	public void vocationalInfo() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as vocationalInfo.");
 
 	}
 
 	@Override
 	public void classSize() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as classSize.");
 
 	}
 
 	@Override
 	public void playGround() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as playGround.");
 
 	}
 
 	@Override
 	public void teacher() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as teacher.");
 
 	}
 
 	@Override
 	public void anatomyLab() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as anatomyLab.");
 
 	}
 
 	@Override
 	public void hygiene() {
-		// TODO Auto-generated method stub
+		System.out.println("This is from void type method named as hygiene.");
 
 	}
 }
