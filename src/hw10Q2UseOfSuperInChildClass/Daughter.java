@@ -5,12 +5,10 @@ public class Daughter extends Father {
 	public int age;
 
 	public Daughter() {
-		super();
+		super("Anwar Karim", 62, 'M', false);
 		super.fatherInfo("Anwar Karim", 62, 'M', false);
 		super.familyName = "Karim Family";
-
 		System.out.println("The family name is: " + familyName);
-
 		System.out.println("This is a default constructor from Daughter Class.");
 
 	}
